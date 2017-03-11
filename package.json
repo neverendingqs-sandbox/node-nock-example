@@ -1,0 +1,33 @@
+{
+  "name": "node-nock-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "mocha --"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neverendingqs-sandbox/node-nock-example.git"
+  },
+  "author": "neverendingqs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neverendingqs-sandbox/node-nock-example/issues"
+  },
+  "homepage": "https://github.com/neverendingqs-sandbox/node-nock-example#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "superagent": "^3.5.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "nock": "^9.0.9",
+    "supertest": "^3.0.0"
+  }
+}
