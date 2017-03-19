@@ -12,7 +12,8 @@ describe('server-improved', function() {
       this.test.error(new Error('Not all nock interceptors were used!'));
       nock.cleanAll();
     }
-  })
+  });
+
   it('GET / once', function() {
     nock('https://www.example.com')
       .get('/')
